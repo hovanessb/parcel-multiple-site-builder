@@ -23,7 +23,7 @@ yarn build
 
 # test sites
 ```
-docker-compose up
+docker-compose up // visit localhost:8080/siteone,  localhost:8080/sitetwo, etc.
 ```
 ## Workflow
 1. Create a new folder in the `parcel/public/` directory with the name of the campaign. Ensure there are nospaces in the name, e.g. `example`
