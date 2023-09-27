@@ -1,0 +1,16 @@
+{
+  "name": "parcel-transformer-partytown-injector",
+  "version": "1.0.0",
+  "description": "Parcel plugin to inject partytown scripts into headers for index.html files",
+  "main": "index.js",
+  "author": "Hovaness Bartamian",
+  "license": "MIT",
+  "dependencies": {
+    "@builder.io/partytown": "^0.7.1",
+    "@parcel/plugin": "^2.7.0"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.7.0"
+  }
+}

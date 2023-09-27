@@ -1,0 +1,48 @@
+<picture >
+   <source
+     type="image/avif"
+     srcset="
+       {{image}}?as=avif&width={{sm}} {{sm}}w,
+       {{image}}?as=avif&width={{md}} {{md}}w,
+       {{image}}?as=avif&width={{lg}} {{lg}}w,
+       {{image}}?as=avif&width={{xl}} {{xl}}w,
+       {{image}}?as=avif&width={{xxl}} {{xxl}}w
+     "     
+     height="{{height}}"
+     width="{{sm}}"
+     sizes = "(max-width: {{sm}}px) {{sm}}px,(max-width: {{md}}px) {{md}}px,(max-width: {{lg}}px) {{lg}}px, (max-width: {{xl}}px) {{xl}}px,(max-width: {{xxl}}px) {{xxl}}px"
+   />
+   <source
+     type="image/webp"
+     srcset="
+       {{image}}?as=webp&width={{sm}} {{sm}}w,
+       {{image}}?as=webp&width={{md}} {{md}}w,
+       {{image}}?as=webp&width={{lg}} {{lg}}w,
+       {{image}}?as=webp&width={{xl}} {{xl}}w,
+       {{image}}?as=webp&width={{xxl}} {{xxl}}w
+     "     
+     height="{{height}}"
+     width="{{sm}}"
+     sizes = "(max-width: {{sm}}px) {{sm}}px,(max-width: {{md}}px) {{md}}px,(max-width: {{lg}}px) {{lg}}px, (max-width: {{xl}}px) {{xl}}px,(max-width: {{xxl}}px) {{xxl}}px"
+   />
+   <source
+     type="image/jpeg"
+     srcset="{{image}}?as=jpeg&width={{sm}} {{sm}}w,
+            {{image}}?as=jpeg&width={{md}} {{md}}w,
+            {{image}}?as=jpeg&width={{lg}} {{lg}}w,
+            {{image}}?as=jpeg&width={{xl}} {{xl}}w,
+            {{image}}?as=jpeg&width={{xxl}} {{xxl}}w
+            "
+     height="{{height}}"
+     width="{{sm}}"
+     sizes = "(max-width: {{sm}}px) {{sm}}px,(max-width: {{md}}px) {{md}}px,(max-width: {{lg}}px) {{lg}}px, (max-width: {{xl}}px) {{xl}}px,(max-width: {{xxl}}px) {{xxl}}px"
+   />
+   <img
+     height="{{height}}"
+     width="{{sm}}"
+     src="{{image}}?as=avif&width={{sm}}"
+     decoding="async"
+     alt="{{alt}}"
+     class="{{class}}" 
+   />
+ </picture>

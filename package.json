@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@builder.io/partytown": "^0.7.1",
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
+    "@parcel/transformer-inline-string": "^2.8.3",
+    "@tailwindcss/forms": "^0.5.3",
+    "parcel": "^2.8.3",
+    "parcel-transformer-partytown-injector": "./parcel-transformer-partytown-injector",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10",
+    "sharp": "^0.31.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "build": "rm -fr ./web && node build.mjs",
+    "performance": "sh sitespeed.sh"
+  }
+}
